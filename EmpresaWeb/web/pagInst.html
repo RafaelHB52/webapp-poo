@@ -1,16 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-   
-   
-   <title>Loma's Tecnology</title>
-   <meta charset="utf-8">
-   <!-- tag meta para criar uma página responsiva-->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
+  <title>Loma's Technology</title>
+  
+  <meta charset="utf-8">
+  <!-- tag meta para criar uma página responsiva-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+<style>
+figure.foto-legenda{
+    position:relative;
+    box-shadow: 2px 1px 1px black;
+    border:8px solid white;
+    margin: 15px 25px 20px ;
+}
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption{
+    opacity:0;
+    position: absolute;
+    top:0px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    width:100%;
+    height:100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition:opacity 3s;
+}
+figure.foto-legenda:hover figcaption{
+    opacity:1;
+    transition:opacity 3s;
+}
+section#corpo{
+    width: 650px;
+    float: left;
+    padding-top: 60px;
+    padding-right: 22px;
+}
+aside#lateral h1{
+    font-size: 12pt;
+    font-family: Arial;
+    font-size: 12pt;
+    color: black;
+    text-align:justify;
+    text-indent:50px;
+    margin: 50px auto 50px 20px;
+    padding:10px 20px 20px 25px;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p{
+    text-align:center;
+}
 footer {
     margin: 0px;
     padding: 1.25em;
@@ -24,61 +75,68 @@ footer div {
     text-align: center;
     padding: 1.25em 0px;
 }
-  </style>
+</style>
 </head>
 
 <body>
-<!-- MENU -->
+<!-- INICIO MENU -->
     <nav class="navbar navbar-inverse">
     <div class="container-fluid">
-     <div class="navbar-header">
-       <a class="navbar-brand" href="newhtml.html">Loma's Tecnology</a>
-     </div>
-
-     <ul class="nav navbar-nav">
-       <li><a href="newhtml.html">Home</a></li>
-       <li class="active"><a href="pagInst.html">Institucional</a></li>
-       <li><a href="pagNot.html">Notícias</a></li>
-       <li><a href="pagProdut.html">Produtos e Serviços</a></li>
-       <li><a href="pagCont.html">Contato</a></li>
-     </ul>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="newhtml.html">Loma's Technology</a>
+        </div>
+            <ul class="nav navbar-nav">
+                <li><a href="newhtml.html">Home</a></li>
+                <li class="active"><a href="pagInst.html">Institucional</a></li>
+                <li><a href="pagNot.html">Notícias</a></li>
+                <li><a href="pagProd.html">Produtos e Serviços</a></li>
+                <li><a href="pagCont.html">Contato</a></li>
+            </ul>
     </div>
     </nav>
 <!-- FIM MENU -->
-<!-- INSTITUCIONAL -->
+
+<!-- INICIO INSTITUCIONAL -->    
     <div class="container">
-        <h3>Institucional</h3>
+        <center style="font-size: 26px">Institucional</center> 
     </div>
 
-<div class="container">
-       <center><img src="imagens/company.jpg" class ="img-thumbnail" alt="Empresa" width="500" height="500"/></center>
-       <br>
-       <p><font face="Helvetica">Com mais de 10 anos no mercado de vendas e ditribuição de tecnologia, desde 2005 sob a denominação de Loma's Technologic, hoje somos uma empresa lider no mercado. Mais do que isso, nos preocupamos em fornecer sempre o que temos de melhor para nossos clientes. Olhamos para o consumidor e pesquisamos os hábitos de compra e a vida das pessoas. Só assim entendemos melhor nosso público.
+    <section id="corpo">
+        <figure class="foto-legenda">
+        <img id="icone" src="imagens\company.jpg"/>
+        <figcaption>
+            <br><br><br><br><br><br><br><br>
+            <center style="font-size: 20px"> Uma nova maneira de ver o mundo</center>
+        </figcaption>
+        </figure>
+    </section>
+    <br>
+	  
+    <aside id="lateral">
+        <h1>Com mais de 10 anos no mercado de distribuição e desenvolvimento de tecnologias, desde 2005 sob a denominação de <b>Loma's Technology</b>, hoje somos uma empresa lider no mercado. Mais do que isso, nos preocupamos em fornecer sempre o que temos de melhor para nossos clientes. Olhamos para o consumidor e pesquisamos os hábitos de compra e a vida das pessoas. Só assim entendemos melhor nosso público.
 Com muito investimento, evoluímos todas as linhas de produtos da empresa.
 São mais de 13 mil colaboradores distribuídos em cinco unidades no Brasil e um centro administrativo no Acre. Contamos também com duas filiais/centros de distribuição no Peru e na Colômbia. 
-Nos especializamos ainda mais e, hoje, não há um dia na empresa em que não se pense em Inovação.
-<br>
-Somos inquietos, pois não queremos apenas vender produtos tecnológicos, queremos realizar o desejo dos nossos consumidores. Seja o de fazer a melhor compra, através da melhor relação custo X benefício do mercado, seja através de um produto ícone ou uma tecnologia exclusiva. A empresa vende seus produtos por meio de representantes comerciais, distribuidores e clientes diretos em mais de 30 países, atingindo mais de 15 mil pontos de venda no mercado brasileiro e 3 mil no exterior. Trabalhamos todos os dias porque sabemos que cada par vendido é o sonho de um consumidor realizado, seja no Brasil ou em qualquer lugar do mundo.</p>
-       </font></div>
-
-    <hr><br>
+Nos especializamos ainda mais e, hoje, não há um dia na empresa em que não se pense em Inovação.</h1>
+        <h1>Somos inquietos, pois não queremos apenas vender produtos tecnológicos, queremos realizar o desejo dos nossos consumidores. Seja o de fazer a melhor compra, através da melhor relação custo-benefício do mercado, seja através de um produto ícone ou uma tecnologia exclusiva. A empresa vende seus produtos por meio de representantes comerciais, distribuidores e clientes diretos em mais de 30 países, atingindo mais de 15 mil pontos de venda no mercado brasileiro e 3 mil no exterior. Trabalhamos todos os dias porque sabemos que cada item vendido é o sonho de um consumidor realizado, seja no Brasil ou em qualquer lugar do mundo.</h1>
+    </aside>
+    <br><br><br>
 <!-- FIM INSTITUCIONAL -->
-<!-- RODAPÉ -->
-<footer>
-    <div>
-        Existe alguma dúvida? Entre em contato pelo nosso email: <a href="mailto:example@example.com">suporte@lomastechnology.com.br</a>
-    </div>
-    <div>
-        <a href="#"><img src="imagens/facebook.png" style="height: 3em;"></a>
-        <a href="#"><img src="imagens/twitter.png" style="height: 3em;"></a>
-        <a href="#"><img src="imagens/instagram.png" style="height: 3em;"></a>
-        <a href="#"><img src="imagens/youtube.png" style="height: 3em;"></a>
-    </div>
-    <div>
-        <span>Você imagina e nós desenvolvemos.</span>.
-    </div>
-</footer>
-<!-- FIM RODAPÉ -->
 
+<!-- RODAPÉ -->
+    <footer>
+        <div>
+            Existe alguma dúvida? Entre em contato pelo nosso email: <a href="mailto:example@example.com">suporte@lomastechnology.com.br</a>
+        </div>
+        <div>
+            <a href="#"><img src="imagens/facebook.png" style="height: 3em;"></a>
+            <a href="#"><img src="imagens/twitter.png" style="height: 3em;"></a>
+            <a href="#"><img src="imagens/instagram.png" style="height: 3em;"></a>
+            <a href="#"><img src="imagens/youtube.png" style="height: 3em;"></a>
+        </div>
+        <div>
+        <span>Você imagina e nós desenvolvemos.</span>.
+        </div>
+    </footer>
+<!-- FIM RODAPÉ -->
 </body>
-</html>
+</html> 
