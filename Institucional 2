@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+
+<html lang="pt-br">
+
+ <head>
+  <title>Institucional</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+  
+figure.foto-legenda{
+	position:relative;
+box-shadow: 2px 1px 1px black;
+border:8px solid white;
+  margin: 15px 25px 20px ;
+}
+
+figure.foto-legenda img{
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption{
+	opacity:0;
+	position: absolute;
+	top:0px;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	width:100%;
+	height:100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition:opacity 3s;
+}
+
+figure.foto-legenda:hover figcaption{
+	opacity:1;
+		transition:opacity 3s;
+
+}
+
+section#corpo{
+	width: 650px;
+	float: left;
+	padding-top: 60px;
+	padding-right: 22px;
+
+}
+
+aside#lateral h1{
+	font-size: 12pt;
+  font-family: Arial;
+  font-size: 12pt;
+  color: black;
+  text-align:justify;
+  text-indent:50px;
+  margin: 50px auto 50px 20px;
+  padding:10px 20px 20px 25px;
+   
+}
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+	text-align:center;
+}
+  </style>
+   
+
+ </head>
+
+ <body>
+ 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://localhost:8084/EmpresaWeb/index.html">Loma's Technology</a>
+     <ul class="nav navbar-nav">
+       <li><a href="http://localhost:8084/EmpresaWeb/index.html">Home</a></li>
+       <li class="active"><a href="http://localhost:8084/EmpresaWeb/pagInst.html">Institucional</a></li>
+       <li><a href="http://localhost:8084/EmpresaWeb/pagNot.html">Notícias</a></li>
+       <li><a href="http://localhost:8084/EmpresaWeb/pagProd.html">Produtos e Serviços</a></li>
+       <li><a href="http://localhost:8084/EmpresaWeb/pagCont.html">Contato</a></li>
+     </ul>
+  </div>
+</nav>
+  
+    </nav>
+    
+    <div class="container">
+        <h3><center>Institucional</center></h3>
+    </div>
+	
+<section id="corpo">
+
+<figure class="foto-legenda">
+<img id="icone" src="imagens\company.jpg"/>
+<figcaption>
+<b><h3>Loma's Technology <br><br><br><center> Uma nova maneira de ver o mundo<center></h3></b></br></br>
+</figcaption>
+</figure>
+
+</section>
+       <br>
+	     
+<aside id="lateral">
+       <p><h1>
+	   Com mais de 10 anos no mercado de vendas e ditribuição de tecnologia, desde 2005 sob a denominação de <b>Loma's Technologic</b>, hoje somos uma empresa lider no mercado. Mais do que isso, nos preocupamos em fornecer sempre o que temos de melhor para nossos clientes. Olhamos para o consumidor e pesquisamos os hábitos de compra e a vida das pessoas. Só assim entendemos melhor nosso público.
+Com muito investimento, evoluímos todas as linhas de produtos da empresa.
+São mais de 13 mil colaboradores distribuídos em cinco unidades no Brasil e um centro administrativo no Acre. Contamos também com duas filiais/centros de distribuição no Peru e na Colômbia. 
+Nos especializamos ainda mais e, hoje, não há um dia na empresa em que não se pense em Inovação.
+<br>
+<p>Somos inquietos, pois não queremos apenas vender produtos tecnológicos, queremos realizar o desejo dos nossos consumidores. Seja o de fazer a melhor compra, através da melhor relação custo X benefício do mercado, seja através de um produto ícone ou uma tecnologia exclusiva. A empresa vende seus produtos por meio de representantes comerciais, distribuidores e clientes diretos em mais de 30 países, atingindo mais de 15 mil pontos de venda no mercado brasileiro e 3 mil no exterior. Trabalhamos todos os dias porque sabemos que cada item vendido é o sonho de um consumidor realizado, seja no Brasil ou em qualquer lugar do mundo.
+       </h1></p></p>
+	   </aside>
+
+ <hr><br>
+    <footer id="rodape">
+<p>Outras formas de comprar: visite uma Apple Store, ligue para 0800-761-0867 ou encontre um revendedor autorizado. Apple Music e iTunes Store são fornecidos pela Apple Inc. Rua Leopoldo Couto de Magalhães Jr., 700, 7º andar, Itaim Bibi. São Paulo, SP. CEP: 04542-000. 
+          Copyright © 2018 Apple Inc. Todos os direitos reservados. Apple Computer Brasil Ltda. CNPJ: 00.623.904/0003-35</p></center></footer>
+ 
+ </body>
+</html> 
+</html>
